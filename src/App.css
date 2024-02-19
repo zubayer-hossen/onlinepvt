@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+
+.container {
+  /* height: 450px; */
+  width: 310px;
+
+  background-color: #272628;
+
+  
+  border-radius: 20px;
+  padding: 20px;
+
+
+}
+
+.avatar{
+  height: 100px;
+  width: 100px;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: url(../src/assets/avatar.png) no-repeat center center/cover;
+}
+
+.avatar_one{
+  height: 100px;
+  width: 100px;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: url(../src/assets/signin.png) no-repeat center center/cover;
+}
+
+input{
+  width: 100%;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid yellow;
+}
+
+button{
+  width: 100%;
+  padding: 5px 5px;
+  background-color: #c71036;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logoutbtn{
+  width: 200px;
+  padding: 5px 5px;
+  background-color: #c71036;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+
+}
+
+span{
+  transition: all linear .5s;
+  animation: zubu .5s ease-in-out infinite;
+  
+}
+
+@keyframes zubu{
+  from{
+    color: yellow;
+  }to{
+    color: red;
+  }
+}
+
